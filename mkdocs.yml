@@ -24,7 +24,6 @@ nav:
       - Тестирование: testing.md
   - Как мы документируем:
       - Документация: documentation.md
-      - Доступность: accessibility.md
   - Как мы работаем:
       - Задачи в YouTrack: youtrack.md
       - Ревью: review.md
