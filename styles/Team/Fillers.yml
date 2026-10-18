@@ -1,0 +1,9 @@
+extends: existence
+message: Уберите оценочное слово «%s» (правило D-04).
+level: warning
+ignorecase: true
+tokens:
+  - просто
+  - легко
+  - очевидно
+  - всего лишь

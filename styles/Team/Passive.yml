@@ -1,0 +1,6 @@
+extends: existence
+message: Возможен пассивный залог «%s» (правило D-04).
+level: warning
+ignorecase: true
+tokens:
+  - 'будет (выполнен|сохранён|создан|отправлен|проверен)[а-яё]*'

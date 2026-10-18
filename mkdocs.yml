@@ -1,0 +1,33 @@
+site_name: Руководство по разработке
+site_description: Правила разработки, тестирования, документации и работы с задачами
+site_url: https://qroog.github.io/style-guide-project/
+repo_url: https://github.com/qroog/style-guide-project
+theme:
+  name: material
+  language: ru
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+nav:
+  - Главная: index.md
+  - Как мы пишем код:
+      - Общие принципы: principles.md
+      - Наименование: naming.md
+      - Стиль кода (Go): code.md
+      - SQL и данные: sql.md
+      - Тестирование: testing.md
+  - Как мы документируем:
+      - Документация: documentation.md
+      - Доступность: accessibility.md
+  - Как мы работаем:
+      - Задачи в YouTrack: youtrack.md
+      - Ревью: review.md
+      - Процесс работы: process.md
+  - Глоссарий: glossary.md
+  - Как внести вклад: CONTRIBUTING.md
